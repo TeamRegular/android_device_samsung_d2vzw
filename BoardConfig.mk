@@ -28,3 +28,8 @@
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2vzw,d2lte
+
+# Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_d2vzw
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/d2vzw/init/init_d2vzw.c
